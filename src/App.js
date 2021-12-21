@@ -35,7 +35,7 @@ const App = () => {
   useEffect(() => {
     if (input === "english bulldog" || input === "bulldog english") {
       setInput("bulldog/english");
-    } else if (input === "shiba") {
+    } else if (input === "shiba" || input === "shiba inu") {
       setInput("shiba");
     } else if (input === "affenpinscher") {
       setInput("affenpinscher");
@@ -375,14 +375,14 @@ const App = () => {
   const shiba = () => {
     setInfo(
       <p>
-        Name: Shiba inu <br />
+        Name: Shiba Inu <br />
         <br />
         Origin: Japan <br />
         <br />
-        Height: 33 to 43cm '13 to 17 in'
+        Height: 33-43cm '13-17 in'
         <br />
         <br />
-        Weight: 8 to 10kg '18 to 22lb'
+        Weight: 8-10kg '18-22lb'
         <br />
         <br />
         Coat: double <br />
@@ -401,7 +401,7 @@ const App = () => {
         <br />
         Origin: Japan <br />
         <br />
-        Height: 33 to 43cm '13 to 17 in'
+        Height: 33-43cm '13-17 in'
         <br />
         <br />
         Weight: 8 to 10kg '18 to 22lb'
@@ -421,19 +421,19 @@ const App = () => {
       <p>
         Name: Affenpinscher <br />
         <br />
-        Origin: Japan <br />
+        Origin: Germany <br />
         <br />
-        Height: 33 to 43cm '13 to 17 in'
-        <br />
-        <br />
-        Weight: 8 to 10kg '18 to 22lb'
+        Height: 23–30 cm '9–12 in'
         <br />
         <br />
-        Coat: double <br />
+        Weight: 3–6 kg '7–13 lb'
         <br />
-        Litter size: 3 puppies on average <br />
         <br />
-        Life span: 13-15 years
+        Coat: Wire <br />
+        <br />
+        Litter size: 2-3 puppies on average<br />
+        <br />
+        Life span: 11-14 years
       </p>
     );
   };
