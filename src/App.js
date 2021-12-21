@@ -163,7 +163,7 @@ const App = () => {
     } else if (input === "kuvasz") {
       setInput("kuvasz");
     } else if (input === "labradoodle") {
-      setInput("lLabradoodle");
+      setInput("labradoodle");
     } else if (input === "labrador") {
       setInput("labrador");
     } else if (input === "leonberg") {
@@ -395,571 +395,3160 @@ const App = () => {
   };
 
   const englishBulldog = () => {
-    setInfo(<p>English Bulldog info</p>);
+    setInfo(
+      <p>
+        Name: English Bulldog <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const affenpinscher = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Affenpinscher <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const african = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: African <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const airedale = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Airedale <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
+  };
+
+  const akita = () => {
+    setInfo(
+      <p>
+        Name: Akita <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const appenzeller = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Appenzeller <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const shepherdAustralian = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Australian Shepherd <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const basenji = () => {
-    setInfo(<p>English Bulldog info</p>);
+    setInfo(
+      <p>
+        Name: Basenji <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const beagle = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Beagle <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const bluetick = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Bluetick <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
-  const borzoi= () => {
-    console.log(".");
+  const borzoi = () => {
+    setInfo(
+      <p>
+        Name: Borzoi <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const bouvier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Bouvier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const boxer = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Boxer <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const brabancon = () => {
-    setInfo(<p>English Bulldog info</p>);
+    setInfo(
+      <p>
+        Name: Brabancon <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
-  const briard= () => {
-    console.log(".");
+  const briard = () => {
+    setInfo(
+      <p>
+        Name: Briard
+        <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const norwegianBuhund = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Norwegian Buhund <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const bostonBulldog = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Boston Bulldog <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const frenchBulldog = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: French Bulldog <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const staffordshireBullterrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Staffordshire Bullterrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const australianCattledog = () => {
-    setInfo(<p>English Bulldog info</p>);
+    setInfo(
+      <p>
+        Name: Australian Cattledog <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const chihuahua = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Chihuahua <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const chow = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Chow <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const clumber = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Clumber <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const cockapoo = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Cockapoo <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const borderCollie = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Border Collie <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const coonhound = () => {
-    setInfo(<p>English Bulldog info</p>);
+    setInfo(
+      <p>
+        Name: Coonhound <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const cardiganCorgi = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Ardigan Corgi <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const cotondetulear = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Cotondetulear <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
-  const dachshund= () => {
-    console.log(".");
+  const dachshund = () => {
+    setInfo(
+      <p>
+        Name: Dachshund <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const dalmatian = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Dalmatian <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const greatDane = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Great Dane <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const scottishDeerhound = () => {
-    setInfo(<p>English Bulldog info</p>);
+    setInfo(
+      <p>
+        Name: Scottish Deerhound
+        <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const dhole = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Dhole <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const dingo = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Dingo <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const doberman = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Doberman <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const norwegianElkhound = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Norwegian Elkhound <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const entlebucher = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Entlebucher <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const eskimo = () => {
-    setInfo(<p>English Bulldog info</p>);
+    setInfo(
+      <p>
+        Name: Eskimo <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const lapphundFinnish = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Lapphund Finnish <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const bichonFrise = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Bichon Frise <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
-  const germanshepherd = () => {
-    console.log(".");
+  const germanShepherd = () => {
+    setInfo(
+      <p>
+        Name: German Shepherd <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const italianGreyhound = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Italian Greyhound <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const groenendael = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Groenendael <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const havanese = () => {
-    setInfo(<p>English Bulldog info</p>);
+    setInfo(
+      <p>
+        Name: Havanese <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const afghanHound = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Afghan Hound <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const bassetHound = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Basset Hound <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const bloodHound = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Blood Hound <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const englishHound = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: English Hound <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const ibizanHound = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Ibizan Hound <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const plottHound = () => {
-    setInfo(<p>English Bulldog info</p>);
+    setInfo(
+      <p>
+        Name: Plott Hound <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const walkerHound = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Walker Hound <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const husky = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Husky <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const keeshond = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Keeshond <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const kelpie = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Kelpie <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const komondor = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Komondor <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const kuvasz = () => {
-    setInfo(<p>English Bulldog info</p>);
+    setInfo(
+      <p>
+        Name: Kuvasz <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
-  const lLabradoodle = () => {
-    console.log(".");
+  const labradoodle = () => {
+    setInfo(
+      <p>
+        Name: Labradoodle <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const labrador = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Labrador
+        <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const leonberg = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Leonberg <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const lhasa = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Lhasa <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const malamute = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Malamute
+        <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const malinois = () => {
-    setInfo(<p>English Bulldog info</p>);
+    setInfo(
+      <p>
+        Name: Malinois <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const maltese = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Maltese <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const bullMastiff = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Bull Mastiff <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const englishMastiff = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: English Mastiff <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const tibetanMastiff = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Tibetan Mastiff <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const mexicanhairless = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Mexicanhairless <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const mix = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Mix <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const berneseMountain = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Bernese Mountain <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const swissMountain = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Swiss Mountain <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const newfoundland = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Newfoundland <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const otterhound = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Otterhound <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const caucasianOvcharka = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Caucasian Ovcharka <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const papillon = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Papillon <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const pekinese = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Pekinese
+        <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const pembroke = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Pembroke <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const miniaturePinscher = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Miniature Pinscher <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const pitbull = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Pitbull <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const germanPointer = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: German Pointer <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const germanlonghairPointer = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Germanlonghair Pointer <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const pomeranian = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Pomeranian <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const miniaturePoodle = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Miniature Poodle <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const standardPoodle = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Standard Poodle <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const toyPoodle = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Toy Poodle <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const pug = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Pug <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const puggle = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Puggle <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const pyrenees = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Pyrenees <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const redbone = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Redbone
+        <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const chesapeakeRetriever = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Chesapeake Retriever <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const curlyRetriever = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Curly Retriever <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const flatcoatedRetriever = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Flatcoated Retriever <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const goldenRetriever = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Golden Retriever <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const rhodesianRidgeback = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Rhodesian Ridgeback <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const rottweiler = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Rottweiler <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const saluki = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Saluki <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const samoyed = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Samoyed <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const schipperke = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Schipperke <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const giantSchnauzer = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Giant Schnauzer <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const miniatureSchnauzer = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Miniature Schnauzer <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const englishSetter = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: English Setter <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const gordonSetter = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Gordon Setter <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
-  const irishSetter= () => {
-    console.log(".");
+  const irishSetter = () => {
+    setInfo(
+      <p>
+        Name: Irish Setter <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const englishSheepdog = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: English Sheepdog <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const shetlandSheepdog = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Shetland Sheepdog <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const shihtzu = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Shihtzu
+        <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const blenheimSpaniel = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Blenheim Spaniel <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const brittanySpaniel = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Brittany Spaniel <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const cockerSpaniel = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Cocker Spaniel <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const irishSpaniel = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Irish Spaniel
+        <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const japaneseSpaniel = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Japanese Spaniel <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const sussexSpaniel = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Sussex Spaniel <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const welshSpaniel = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Welsh Spaniel <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const englishSpringer = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: English Springer <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const stbernard = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Stbernard <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const americanTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: American Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const australianTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Australian Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const bedlingtonTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Bedlington Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const borderTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Border Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const cairnTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Cairn Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const dandieTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Dandie Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const foxTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Fox Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const irishTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Irish Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const kerryblueTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Kerryblue Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const lakelandTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Lakeland Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const norfolkTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Norfolk Terrier
+        <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const norwichTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Norwich Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const patterdaleTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Patterdale Terrier
+        <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const russellTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Russell Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const scottishTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Scottish Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const sealyhamTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Sealyham Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const silkyTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Silky Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const tibetanTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Tibetan Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const toyTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Toy Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const welshTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Welsh Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const westhighlandTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Westhighland Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const wheatenTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Wheaten Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const yorkshireTerrier = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Yorkshire Terrier <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const tervuren = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Tervuren <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const vizsla = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Vizsla <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const spanishWaterdog = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Spanish Waterdog <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const weimaraner = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Weimaraner <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const whippet = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Whippet <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const irishWolfhound = () => {
-    console.log(".");
+    setInfo(
+      <p>
+        Name: Irish Wolfhound
+        <br />
+        <br />
+        Origin: Japan <br />
+        <br />
+        Height: 33 to 43cm '13 to 17 in'
+        <br />
+        <br />
+        Weight: 8 to 10kg '18 to 22lb'
+        <br />
+        <br />
+        Coat: double <br />
+        <br />
+        Litter size: 3 puppies on average <br />
+        <br />
+        Life span: 13-15 years
+      </p>
+    );
   };
 
   const handleFetch = async () => {
@@ -1000,6 +3589,8 @@ const App = () => {
       african();
     } else if (input === "airedale") {
       airedale();
+    } else if (input === "akita") {
+      akita();
     } else if (input === "appenzeller") {
       appenzeller();
     } else if (input === "australian/shepherd") {
@@ -1071,7 +3662,7 @@ const App = () => {
     } else if (input === "frise/bichon") {
       bichonFrise();
     } else if (input === "germanshepherd") {
-      germanshepherd();
+      germanShepherd();
     } else if (input === "greyhound/italian") {
       italianGreyhound();
     } else if (input === "groenendael") {
@@ -1102,8 +3693,8 @@ const App = () => {
       komondor();
     } else if (input === "kuvasz") {
       kuvasz();
-    } else if (input === "lLabradoodle") {
-      lLabradoodle();
+    } else if (input === "Labradoodle") {
+      labradoodle();
     } else if (input === "labrador") {
       labrador();
     } else if (input === "leonberg") {
@@ -1276,7 +3867,7 @@ const App = () => {
       whippet();
     } else if (input === "wolfhound/irish") {
       irishWolfhound();
-    } 
+    }
   };
 
   if (loading) {
