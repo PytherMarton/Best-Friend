@@ -379,13 +379,13 @@ const App = () => {
         <br />
         Origin: Japan <br />
         <br />
-        Height: 33-43cm '13-17 in'
+        Height: 33-43 cm '13-17 in'
         <br />
         <br />
-        Weight: 8-10kg '18-22lb'
+        Weight: 8-10 kg '18-22 lb'
         <br />
         <br />
-        Coat: double <br />
+        Coat: Double <br />
         <br />
         Litter size: 3 puppies on average <br />
         <br />
@@ -399,19 +399,17 @@ const App = () => {
       <p>
         Name: English Bulldog <br />
         <br />
-        Origin: Japan <br />
+        Origin: England <br />
         <br />
-        Height: 33-43cm '13-17 in'
-        <br />
-        <br />
-        Weight: 8 to 10kg '18 to 22lb'
+        Height: 30-61 cm '1-2 ft'
         <br />
         <br />
-        Coat: double <br />
+        Weight: 18–25 kg '40–55 lb'
         <br />
-        Litter size: 3 puppies on average <br />
         <br />
-        Life span: 13-15 years
+        Litter size: 3-7-12 puppies on average <br />
+        <br />
+        Life span: 3-12 years
       </p>
     );
   };
@@ -443,19 +441,13 @@ const App = () => {
       <p>
         Name: African <br />
         <br />
-        Origin: Japan <br />
+        Origin: Southern Africa <br />
         <br />
-        Height: 33 to 43cm '13 to 17 in'
+        Height: 50–62 cm '20–24 in'
         <br />
+        Coat: Short and compact <br />
         <br />
-        Weight: 8 to 10kg '18 to 22lb'
-        <br />
-        <br />
-        Coat: double <br />
-        <br />
-        Litter size: 3 puppies on average <br />
-        <br />
-        Life span: 13-15 years
+        Litter size: 4-12 puppies on average <br />
       </p>
     );
   };
@@ -465,19 +457,19 @@ const App = () => {
       <p>
         Name: Airedale <br />
         <br />
-        Origin: Japan <br />
+        Origin: England <br />
         <br />
-        Height: 33 to 43cm '13 to 17 in'
-        <br />
-        <br />
-        Weight: 8 to 10kg '18 to 22lb'
+        Height: 56–61 cm '22–24 inches'
         <br />
         <br />
-        Coat: double <br />
+        Weight: 16–23 kg '35–50 pounds'
         <br />
-        Litter size: 3 puppies on average <br />
         <br />
-        Life span: 13-15 years
+        Coat: Broken<br />
+        <br />
+        Litter size: 9 puppies on average <br />
+        <br />
+        Life span: 10-12 years
       </p>
     );
   };
@@ -489,17 +481,17 @@ const App = () => {
         <br />
         Origin: Japan <br />
         <br />
-        Height: 33 to 43cm '13 to 17 in'
+        Height: 64–69 cm '25–27 in'
         <br />
         <br />
-        Weight: 8 to 10kg '18 to 22lb'
+        Weight: 25–36 kg '55–80 lb'
         <br />
         <br />
-        Coat: double <br />
+        Coat: Double <br />
         <br />
-        Litter size: 3 puppies on average <br />
+        Litter size: 3-12 puppies on average <br />
         <br />
-        Life span: 13-15 years
+        Life span: 10 years
       </p>
     );
   };
@@ -509,19 +501,19 @@ const App = () => {
       <p>
         Name: Appenzeller <br />
         <br />
-        Origin: Japan <br />
+        Origin: Switzerland <br />
         <br />
-        Height: 33 to 43cm '13 to 17 in'
-        <br />
-        <br />
-        Weight: 8 to 10kg '18 to 22lb'
+        Height: 52–56 cm '20–22 in'
         <br />
         <br />
-        Coat: double <br />
+        Weight: 22-32 kg '48-55 lb'
         <br />
-        Litter size: 3 puppies on average <br />
         <br />
-        Life span: 13-15 years
+        Coat:  Thick and shiny <br />
+        <br />
+        Litter size: 4-6 puppies on average <br />
+        <br />
+        Life span: 12-14 years
       </p>
     );
   };
@@ -531,19 +523,19 @@ const App = () => {
       <p>
         Name: Australian Shepherd <br />
         <br />
-        Origin: Japan <br />
+        Origin: United States <br />
         <br />
-        Height: 33 to 43cm '13 to 17 in'
-        <br />
-        <br />
-        Weight: 8 to 10kg '18 to 22lb'
+        Height: 46–58 cm '18–23 in'
         <br />
         <br />
-        Coat: double <br />
+        Weight: 16–32 kg '35–70 lb'
         <br />
-        Litter size: 3 puppies on average <br />
         <br />
-        Life span: 13-15 years
+        Coat: Moderately long double coat <br />
+        <br />
+        Litter size: 6-7 puppies on average <br />
+        <br />
+        Life span: 11-13 years
       </p>
     );
   };
@@ -553,19 +545,19 @@ const App = () => {
       <p>
         Name: Basenji <br />
         <br />
-        Origin: Japan <br />
+        Origin: Democratic Republic of the Congo <br />
         <br />
-        Height: 33 to 43cm '13 to 17 in'
-        <br />
-        <br />
-        Weight: 8 to 10kg '18 to 22lb'
+        Height: 40-43 cm '15-17 in'
         <br />
         <br />
-        Coat: double <br />
+        Weight:	9.5-11 kg '21-24 lb'
         <br />
-        Litter size: 3 puppies on average <br />
         <br />
-        Life span: 13-15 years
+        Coat:	Short and fine <br />
+        <br />
+        Litter size: 4-6 puppies on average <br />
+        <br />
+        Life span: 14-16 years
       </p>
     );
   };
@@ -575,19 +567,19 @@ const App = () => {
       <p>
         Name: Beagle <br />
         <br />
-        Origin: Japan <br />
+        Origin: England<br />
         <br />
-        Height: 33 to 43cm '13 to 17 in'
-        <br />
-        <br />
-        Weight: 8 to 10kg '18 to 22lb'
+        Height: 33-41 cm '13-16 in'
         <br />
         <br />
-        Coat: double <br />
+        Weight: 9.1-11.3 kg '20-25 lb'
+        <br />
+        <br />
+        Coat: Short haired, hard coat of medium length <br />
         <br />
         Litter size: 3 puppies on average <br />
         <br />
-        Life span: 13-15 years
+        Life span: 1-10 years
       </p>
     );
   };
@@ -597,19 +589,19 @@ const App = () => {
       <p>
         Name: Bluetick <br />
         <br />
-        Origin: Japan <br />
+        Origin: United States <br />
         <br />
-        Height: 33 to 43cm '13 to 17 in'
-        <br />
-        <br />
-        Weight: 8 to 10kg '18 to 22lb'
+        Height: 53-69 cm '21-27 in'
         <br />
         <br />
-        Coat: double <br />
+        Weight: 20-36 kg '45-80 lb'
         <br />
-        Litter size: 3 puppies on average <br />
         <br />
-        Life span: 13-15 years
+        Coat: Short and smooth <br />
+        <br />
+        Litter size: 7 puppies on average <br />
+        <br />
+        Life span: 11-12 years
       </p>
     );
   };
@@ -619,19 +611,19 @@ const App = () => {
       <p>
         Name: Borzoi <br />
         <br />
-        Origin: Japan <br />
+        Origin: Russia <br />
         <br />
-        Height: 33 to 43cm '13 to 17 in'
-        <br />
-        <br />
-        Weight: 8 to 10kg '18 to 22lb'
+        Height: 68-85 cm '27 to 33 in'
         <br />
         <br />
-        Coat: double <br />
+        Weight: 25t-50 kg '55-105 lb'
         <br />
-        Litter size: 3 puppies on average <br />
         <br />
-        Life span: 13-15 years
+        Coat: Medium length, silky and wavy, short length <br />
+        <br />
+        Litter size: 1-11 puppies on average <br />
+        <br />
+        Life span: 11-15 years
       </p>
     );
   };
@@ -641,19 +633,19 @@ const App = () => {
       <p>
         Name: Bouvier <br />
         <br />
-        Origin: Japan <br />
+        Origin: Belgium; France <br />
         <br />
-        Height: 33 to 43cm '13 to 17 in'
-        <br />
-        <br />
-        Weight: 8 to 10kg '18 to 22lb'
+        Height: 59-68 cm '23-27 in'
         <br />
         <br />
-        Coat: double <br />
+        Weight: 27-40 kg '60-88 lb'
         <br />
-        Litter size: 3 puppies on average <br />
         <br />
-        Life span: 13-15 years
+        Coat: Double <br />
+        <br />
+        Litter size: 5-10 puppies on average <br />
+        <br />
+        Life span: 10-12 years
       </p>
     );
   };
@@ -663,19 +655,19 @@ const App = () => {
       <p>
         Name: Boxer <br />
         <br />
-        Origin: Japan <br />
+        Origin: Germany <br />
         <br />
-        Height: 33 to 43cm '13 to 17 in'
-        <br />
-        <br />
-        Weight: 8 to 10kg '18 to 22lb'
+        Height: 53-64 cm '21-25 in'
         <br />
         <br />
-        Coat: double <br />
+        Weight: 25-34 kg '55-75 lb'
         <br />
-        Litter size: 3 puppies on average <br />
         <br />
-        Life span: 13-15 years
+        Coat: Short, shiny, smooth, close-lying <br />
+        <br />
+        Litter size: 6-8 puppies on average <br />
+        <br />
+        Life span: 9-15 years
       </p>
     );
   };
@@ -685,19 +677,19 @@ const App = () => {
       <p>
         Name: Brabancon <br />
         <br />
-        Origin: Japan <br />
+        Origin: Belgium <br />
         <br />
-        Height: 33 to 43cm '13 to 17 in'
-        <br />
-        <br />
-        Weight: 8 to 10kg '18 to 22lb'
+        Height: 230-280 mm '9-11 in'
         <br />
         <br />
-        Coat: double <br />
+        Weight: 4-5 kg '8-10 lb'
         <br />
-        Litter size: 3 puppies on average <br />
         <br />
-        Life span: 13-15 years
+        Coat: Wiry/rough and smooth coat. <br />
+        <br />
+        Litter size: 1-10 puppies on average <br />
+        <br />
+        Life span: 10-15 years
       </p>
     );
   };
