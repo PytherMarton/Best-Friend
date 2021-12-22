@@ -429,7 +429,8 @@ const App = () => {
         <br />
         Coat: Wire <br />
         <br />
-        Litter size: 2-3 puppies on average<br />
+        Litter size: 2-3 puppies on average
+        <br />
         <br />
         Life span: 11-14 years
       </p>
@@ -465,7 +466,8 @@ const App = () => {
         Weight: 16–23 kg '35–50 pounds'
         <br />
         <br />
-        Coat: Broken<br />
+        Coat: Broken
+        <br />
         <br />
         Litter size: 9 puppies on average <br />
         <br />
@@ -509,7 +511,7 @@ const App = () => {
         Weight: 22-32 kg '48-55 lb'
         <br />
         <br />
-        Coat:  Thick and shiny <br />
+        Coat: Thick and shiny <br />
         <br />
         Litter size: 4-6 puppies on average <br />
         <br />
@@ -550,10 +552,10 @@ const App = () => {
         Height: 40-43 cm '15-17 in'
         <br />
         <br />
-        Weight:	9.5-11 kg '21-24 lb'
+        Weight: 9.5-11 kg '21-24 lb'
         <br />
         <br />
-        Coat:	Short and fine <br />
+        Coat: Short and fine <br />
         <br />
         Litter size: 4-6 puppies on average <br />
         <br />
@@ -567,7 +569,8 @@ const App = () => {
       <p>
         Name: Beagle <br />
         <br />
-        Origin: England<br />
+        Origin: England
+        <br />
         <br />
         Height: 33-41 cm '13-16 in'
         <br />
@@ -3554,6 +3557,298 @@ const App = () => {
     const data = await response.json();
     setData(data.message);
     setInput(input);
+
+    setTimeout(() => {
+      if (input === "bulldog/english") {
+        englishBulldog();
+      } else if (input === "shiba") {
+        shiba();
+      } else if (input === "affenpinscher") {
+        affenpinscher();
+      } else if (input === "african") {
+        african();
+      } else if (input === "airedale") {
+        airedale();
+      } else if (input === "akita") {
+        akita();
+      } else if (input === "appenzeller") {
+        appenzeller();
+      } else if (input === "australian/shepherd") {
+        shepherdAustralian();
+      } else if (input === "basenji") {
+        basenji();
+      } else if (input === "beagle") {
+        beagle();
+      } else if (input === "bluetick") {
+        bluetick();
+      } else if (input === "borzoi") {
+        borzoi();
+      } else if (input === "bouvier") {
+        bouvier();
+      } else if (input === "boxer") {
+        boxer();
+      } else if (input === "brabancon") {
+        brabancon();
+      } else if (input === "briard") {
+        briard();
+      } else if (input === "buhund/norwegian") {
+        norwegianBuhund();
+      } else if (input === "bulldog/boston") {
+        bostonBulldog();
+      } else if (input === "bulldog/french") {
+        frenchBulldog();
+      } else if (input === "bullterrier/staffordshire") {
+        staffordshireBullterrier();
+      } else if (input === "cattledog/australian") {
+        australianCattledog();
+      } else if (input === "chihuahua") {
+        chihuahua();
+      } else if (input === "chow") {
+        chow();
+      } else if (input === "clumber") {
+        clumber();
+      } else if (input === "cockapoo") {
+        cockapoo();
+      } else if (input === "collie/border") {
+        borderCollie();
+      } else if (input === "coonhound") {
+        coonhound();
+      } else if (input === "corgi/cardigan") {
+        cardiganCorgi();
+      } else if (input === "cotondetulear") {
+        cotondetulear();
+      } else if (input === "dachshund") {
+        dachshund();
+      } else if (input === "dalmatian") {
+        dalmatian();
+      } else if (input === "dane/great") {
+        greatDane();
+      } else if (input === "deerhound/scottish") {
+        scottishDeerhound();
+      } else if (input === "dhole") {
+        dhole();
+      } else if (input === "dingo") {
+        dingo();
+      } else if (input === "doberman") {
+        doberman();
+      } else if (input === "elkhound/norwegian") {
+        norwegianElkhound();
+      } else if (input === "entlebucher") {
+        entlebucher();
+      } else if (input === "eskimo") {
+        eskimo();
+      } else if (input === "finnish/lapphund") {
+        lapphundFinnish();
+      } else if (input === "frise/bichon") {
+        bichonFrise();
+      } else if (input === "germanshepherd") {
+        germanShepherd();
+      } else if (input === "greyhound/italian") {
+        italianGreyhound();
+      } else if (input === "groenendael") {
+        groenendael();
+      } else if (input === "havanese") {
+        havanese();
+      } else if (input === "hound/afghan") {
+        afghanHound();
+      } else if (input === "hound/basset") {
+        bassetHound();
+      } else if (input === "hound/blood") {
+        bloodHound();
+      } else if (input === "hound/english") {
+        englishHound();
+      } else if (input === "hound/ibizan") {
+        ibizanHound();
+      } else if (input === "hound/plott") {
+        plottHound();
+      } else if (input === "hound/walker") {
+        walkerHound();
+      } else if (input === "husky") {
+        husky();
+      } else if (input === "keeshond") {
+        keeshond();
+      } else if (input === "kelpie") {
+        kelpie();
+      } else if (input === "komondor") {
+        komondor();
+      } else if (input === "kuvasz") {
+        kuvasz();
+      } else if (input === "Labradoodle") {
+        labradoodle();
+      } else if (input === "labrador") {
+        labrador();
+      } else if (input === "leonberg") {
+        leonberg();
+      } else if (input === "lhasa") {
+        lhasa();
+      } else if (input === "malamute") {
+        malamute();
+      } else if (input === "malinois") {
+        malinois();
+      } else if (input === "maltese") {
+        maltese();
+      } else if (input === "mastiff/bull") {
+        bullMastiff();
+      } else if (input === "mastiff/english") {
+        englishMastiff();
+      } else if (input === "mastiff/tibetan") {
+        tibetanMastiff();
+      } else if (input === "mexicanhairless") {
+        mexicanhairless();
+      } else if (input === "mix") {
+        mix();
+      } else if (input === "mountain/bernese") {
+        berneseMountain();
+      } else if (input === "mountain/swiss") {
+        swissMountain();
+      } else if (input === "newfoundland") {
+        newfoundland();
+      } else if (input === "otterhound") {
+        otterhound();
+      } else if (input === "ovcharka/caucasian") {
+        caucasianOvcharka();
+      } else if (input === "papillon") {
+        papillon();
+      } else if (input === "pekinese") {
+        pekinese();
+      } else if (input === "pembroke") {
+        pembroke();
+      } else if (input === "pinscher/miniature") {
+        miniaturePinscher();
+      } else if (input === "pitbull") {
+        pitbull();
+      } else if (input === "pointer/german") {
+        germanPointer();
+      } else if (input === "pointer/germanlonghair") {
+        germanlonghairPointer();
+      } else if (input === "pomeranian") {
+        pomeranian();
+      } else if (input === "poodle/miniature") {
+        miniaturePoodle();
+      } else if (input === "poodle/standard") {
+        standardPoodle();
+      } else if (input === "poodle/toy") {
+        toyPoodle();
+      } else if (input === "pug") {
+        pug();
+      } else if (input === "puggle") {
+        puggle();
+      } else if (input === "pyrenees") {
+        pyrenees();
+      } else if (input === "redbone") {
+        redbone();
+      } else if (input === "retriever/chesapeake") {
+        chesapeakeRetriever();
+      } else if (input === "retriever/curly") {
+        curlyRetriever();
+      } else if (input === "retriever/flatcoated") {
+        flatcoatedRetriever();
+      } else if (input === "retriever/golden") {
+        goldenRetriever();
+      } else if (input === "ridgeback/rhodesian") {
+        rhodesianRidgeback();
+      } else if (input === "rottweiler") {
+        rottweiler();
+      } else if (input === "saluki") {
+        saluki();
+      } else if (input === "samoyed") {
+        samoyed();
+      } else if (input === "schipperke") {
+        schipperke();
+      } else if (input === "schnauzer/giant") {
+        giantSchnauzer();
+      } else if (input === "schnauzer/miniature") {
+        miniatureSchnauzer();
+      } else if (input === "setter/english") {
+        englishSetter();
+      } else if (input === "setter/gordon") {
+        gordonSetter();
+      } else if (input === "setter/irish") {
+        irishSetter();
+      } else if (input === "sheepdog/english") {
+        englishSheepdog();
+      } else if (input === "sheepdog/shetland") {
+        shetlandSheepdog();
+      } else if (input === "shihtzu") {
+        shihtzu();
+      } else if (input === "spaniel/blenheim") {
+        blenheimSpaniel();
+      } else if (input === "spaniel/brittany") {
+        brittanySpaniel();
+      } else if (input === "spaniel/cocker") {
+        cockerSpaniel();
+      } else if (input === "spaniel/irish") {
+        irishSpaniel();
+      } else if (input === "spaniel/japanese") {
+        japaneseSpaniel();
+      } else if (input === "spaniel/sussex") {
+        sussexSpaniel();
+      } else if (input === "spaniel/welsh") {
+        welshSpaniel();
+      } else if (input === "springer/english") {
+        englishSpringer();
+      } else if (input === "stbernard") {
+        stbernard();
+      } else if (input === "terrier/american") {
+        americanTerrier();
+      } else if (input === "terrier/australian") {
+        australianTerrier();
+      } else if (input === "terrier/bedlington") {
+        bedlingtonTerrier();
+      } else if (input === "terrier/border") {
+        borderTerrier();
+      } else if (input === "terrier/cairn") {
+        cairnTerrier();
+      } else if (input === "terrier/dandie") {
+        dandieTerrier();
+      } else if (input === "terrier/fox") {
+        foxTerrier();
+      } else if (input === "terrier/irish") {
+        irishTerrier();
+      } else if (input === "terrier/kerryblue") {
+        kerryblueTerrier();
+      } else if (input === "terrier/lakeland") {
+        lakelandTerrier();
+      } else if (input === "terrier/norfolk") {
+        norfolkTerrier();
+      } else if (input === "terrier/norwich") {
+        norwichTerrier();
+      } else if (input === "terrier/patterdale") {
+        patterdaleTerrier();
+      } else if (input === "terrier/russell") {
+        russellTerrier();
+      } else if (input === "terrier/scottish") {
+        scottishTerrier();
+      } else if (input === "terrier/sealyham") {
+        sealyhamTerrier();
+      } else if (input === "terrier/silky") {
+        silkyTerrier();
+      } else if (input === "terrier/tibetan") {
+        tibetanTerrier();
+      } else if (input === "terrier/toy") {
+        toyTerrier();
+      } else if (input === "terrier/welsh") {
+        welshTerrier();
+      } else if (input === "terrier/westhighland") {
+        westhighlandTerrier();
+      } else if (input === "terrier/wheaten") {
+        wheatenTerrier();
+      } else if (input === "terrier/yorkshire") {
+        yorkshireTerrier();
+      } else if (input === "tervuren") {
+        tervuren();
+      } else if (input === "vizsla") {
+        vizsla();
+      } else if (input === "waterdog/spanish") {
+        spanishWaterdog();
+      } else if (input === "weimaraner") {
+        weimaraner();
+      } else if (input === "whippet") {
+        whippet();
+      } else if (input === "wolfhound/irish") {
+        irishWolfhound();
+      }
+    }, 300);
   };
 
   const firstHandleFetch = async () => {
@@ -3571,305 +3866,338 @@ const App = () => {
     if (e.key === "Enter") {
       handleFetch();
     }
-    if (input === "bulldog/english") {
-      englishBulldog();
-    } else if (input === "shiba") {
-      shiba();
-    } else if (input === "affenpinscher") {
-      affenpinscher();
-    } else if (input === "african") {
-      african();
-    } else if (input === "airedale") {
-      airedale();
-    } else if (input === "akita") {
-      akita();
-    } else if (input === "appenzeller") {
-      appenzeller();
-    } else if (input === "australian/shepherd") {
-      shepherdAustralian();
-    } else if (input === "basenji") {
-      basenji();
-    } else if (input === "beagle") {
-      beagle();
-    } else if (input === "bluetick") {
-      bluetick();
-    } else if (input === "borzoi") {
-      borzoi();
-    } else if (input === "bouvier") {
-      bouvier();
-    } else if (input === "boxer") {
-      boxer();
-    } else if (input === "brabancon") {
-      brabancon();
-    } else if (input === "briard") {
-      briard();
-    } else if (input === "buhund/norwegian") {
-      norwegianBuhund();
-    } else if (input === "bulldog/boston") {
-      bostonBulldog();
-    } else if (input === "bulldog/french") {
-      frenchBulldog();
-    } else if (input === "bullterrier/staffordshire") {
-      staffordshireBullterrier();
-    } else if (input === "cattledog/australian") {
-      australianCattledog();
-    } else if (input === "chihuahua") {
-      chihuahua();
-    } else if (input === "chow") {
-      chow();
-    } else if (input === "clumber") {
-      clumber();
-    } else if (input === "cockapoo") {
-      cockapoo();
-    } else if (input === "collie/border") {
-      borderCollie();
-    } else if (input === "coonhound") {
-      coonhound();
-    } else if (input === "corgi/cardigan") {
-      cardiganCorgi();
-    } else if (input === "cotondetulear") {
-      cotondetulear();
-    } else if (input === "dachshund") {
-      dachshund();
-    } else if (input === "dalmatian") {
-      dalmatian();
-    } else if (input === "dane/great") {
-      greatDane();
-    } else if (input === "deerhound/scottish") {
-      scottishDeerhound();
-    } else if (input === "dhole") {
-      dhole();
-    } else if (input === "dingo") {
-      dingo();
-    } else if (input === "doberman") {
-      doberman();
-    } else if (input === "elkhound/norwegian") {
-      norwegianElkhound();
-    } else if (input === "entlebucher") {
-      entlebucher();
-    } else if (input === "eskimo") {
-      eskimo();
-    } else if (input === "finnish/lapphund") {
-      lapphundFinnish();
-    } else if (input === "frise/bichon") {
-      bichonFrise();
-    } else if (input === "germanshepherd") {
-      germanShepherd();
-    } else if (input === "greyhound/italian") {
-      italianGreyhound();
-    } else if (input === "groenendael") {
-      groenendael();
-    } else if (input === "havanese") {
-      havanese();
-    } else if (input === "hound/afghan") {
-      afghanHound();
-    } else if (input === "hound/basset") {
-      bassetHound();
-    } else if (input === "hound/blood") {
-      bloodHound();
-    } else if (input === "hound/english") {
-      englishHound();
-    } else if (input === "hound/ibizan") {
-      ibizanHound();
-    } else if (input === "hound/plott") {
-      plottHound();
-    } else if (input === "hound/walker") {
-      walkerHound();
-    } else if (input === "husky") {
-      husky();
-    } else if (input === "keeshond") {
-      keeshond();
-    } else if (input === "kelpie") {
-      kelpie();
-    } else if (input === "komondor") {
-      komondor();
-    } else if (input === "kuvasz") {
-      kuvasz();
-    } else if (input === "Labradoodle") {
-      labradoodle();
-    } else if (input === "labrador") {
-      labrador();
-    } else if (input === "leonberg") {
-      leonberg();
-    } else if (input === "lhasa") {
-      lhasa();
-    } else if (input === "malamute") {
-      malamute();
-    } else if (input === "malinois") {
-      malinois();
-    } else if (input === "maltese") {
-      maltese();
-    } else if (input === "mastiff/bull") {
-      bullMastiff();
-    } else if (input === "mastiff/english") {
-      englishMastiff();
-    } else if (input === "mastiff/tibetan") {
-      tibetanMastiff();
-    } else if (input === "mexicanhairless") {
-      mexicanhairless();
-    } else if (input === "mix") {
-      mix();
-    } else if (input === "mountain/bernese") {
-      berneseMountain();
-    } else if (input === "mountain/swiss") {
-      swissMountain();
-    } else if (input === "newfoundland") {
-      newfoundland();
-    } else if (input === "otterhound") {
-      otterhound();
-    } else if (input === "ovcharka/caucasian") {
-      caucasianOvcharka();
-    } else if (input === "papillon") {
-      papillon();
-    } else if (input === "pekinese") {
-      pekinese();
-    } else if (input === "pembroke") {
-      pembroke();
-    } else if (input === "pinscher/miniature") {
-      miniaturePinscher();
-    } else if (input === "pitbull") {
-      pitbull();
-    } else if (input === "pointer/german") {
-      germanPointer();
-    } else if (input === "pointer/germanlonghair") {
-      germanlonghairPointer();
-    } else if (input === "pomeranian") {
-      pomeranian();
-    } else if (input === "poodle/miniature") {
-      miniaturePoodle();
-    } else if (input === "poodle/standard") {
-      standardPoodle();
-    } else if (input === "poodle/toy") {
-      toyPoodle();
-    } else if (input === "pug") {
-      pug();
-    } else if (input === "puggle") {
-      puggle();
-    } else if (input === "pyrenees") {
-      pyrenees();
-    } else if (input === "redbone") {
-      redbone();
-    } else if (input === "retriever/chesapeake") {
-      chesapeakeRetriever();
-    } else if (input === "retriever/curly") {
-      curlyRetriever();
-    } else if (input === "retriever/flatcoated") {
-      flatcoatedRetriever();
-    } else if (input === "retriever/golden") {
-      goldenRetriever();
-    } else if (input === "ridgeback/rhodesian") {
-      rhodesianRidgeback();
-    } else if (input === "rottweiler") {
-      rottweiler();
-    } else if (input === "saluki") {
-      saluki();
-    } else if (input === "samoyed") {
-      samoyed();
-    } else if (input === "schipperke") {
-      schipperke();
-    } else if (input === "schnauzer/giant") {
-      giantSchnauzer();
-    } else if (input === "schnauzer/miniature") {
-      miniatureSchnauzer();
-    } else if (input === "setter/english") {
-      englishSetter();
-    } else if (input === "setter/gordon") {
-      gordonSetter();
-    } else if (input === "setter/irish") {
-      irishSetter();
-    } else if (input === "sheepdog/english") {
-      englishSheepdog();
-    } else if (input === "sheepdog/shetland") {
-      shetlandSheepdog();
-    } else if (input === "shihtzu") {
-      shihtzu();
-    } else if (input === "spaniel/blenheim") {
-      blenheimSpaniel();
-    } else if (input === "spaniel/brittany") {
-      brittanySpaniel();
-    } else if (input === "spaniel/cocker") {
-      cockerSpaniel();
-    } else if (input === "spaniel/irish") {
-      irishSpaniel();
-    } else if (input === "spaniel/japanese") {
-      japaneseSpaniel();
-    } else if (input === "spaniel/sussex") {
-      sussexSpaniel();
-    } else if (input === "spaniel/welsh") {
-      welshSpaniel();
-    } else if (input === "springer/english") {
-      englishSpringer();
-    } else if (input === "stbernard") {
-      stbernard();
-    } else if (input === "terrier/american") {
-      americanTerrier();
-    } else if (input === "terrier/australian") {
-      australianTerrier();
-    } else if (input === "terrier/bedlington") {
-      bedlingtonTerrier();
-    } else if (input === "terrier/border") {
-      borderTerrier();
-    } else if (input === "terrier/cairn") {
-      cairnTerrier();
-    } else if (input === "terrier/dandie") {
-      dandieTerrier();
-    } else if (input === "terrier/fox") {
-      foxTerrier();
-    } else if (input === "terrier/irish") {
-      irishTerrier();
-    } else if (input === "terrier/kerryblue") {
-      kerryblueTerrier();
-    } else if (input === "terrier/lakeland") {
-      lakelandTerrier();
-    } else if (input === "terrier/norfolk") {
-      norfolkTerrier();
-    } else if (input === "terrier/norwich") {
-      norwichTerrier();
-    } else if (input === "terrier/patterdale") {
-      patterdaleTerrier();
-    } else if (input === "terrier/russell") {
-      russellTerrier();
-    } else if (input === "terrier/scottish") {
-      scottishTerrier();
-    } else if (input === "terrier/sealyham") {
-      sealyhamTerrier();
-    } else if (input === "terrier/silky") {
-      silkyTerrier();
-    } else if (input === "terrier/tibetan") {
-      tibetanTerrier();
-    } else if (input === "terrier/toy") {
-      toyTerrier();
-    } else if (input === "terrier/welsh") {
-      welshTerrier();
-    } else if (input === "terrier/westhighland") {
-      westhighlandTerrier();
-    } else if (input === "terrier/wheaten") {
-      wheatenTerrier();
-    } else if (input === "terrier/yorkshire") {
-      yorkshireTerrier();
-    } else if (input === "tervuren") {
-      tervuren();
-    } else if (input === "vizsla") {
-      vizsla();
-    } else if (input === "waterdog/spanish") {
-      spanishWaterdog();
-    } else if (input === "weimaraner") {
-      weimaraner();
-    } else if (input === "whippet") {
-      whippet();
-    } else if (input === "wolfhound/irish") {
-      irishWolfhound();
-    }
+
+    setTimeout(() => {
+      if (input === "bulldog/english") {
+        englishBulldog();
+      } else if (input === "shiba") {
+        shiba();
+      } else if (input === "affenpinscher") {
+        affenpinscher();
+      } else if (input === "african") {
+        african();
+      } else if (input === "airedale") {
+        airedale();
+      } else if (input === "akita") {
+        akita();
+      } else if (input === "appenzeller") {
+        appenzeller();
+      } else if (input === "australian/shepherd") {
+        shepherdAustralian();
+      } else if (input === "basenji") {
+        basenji();
+      } else if (input === "beagle") {
+        beagle();
+      } else if (input === "bluetick") {
+        bluetick();
+      } else if (input === "borzoi") {
+        borzoi();
+      } else if (input === "bouvier") {
+        bouvier();
+      } else if (input === "boxer") {
+        boxer();
+      } else if (input === "brabancon") {
+        brabancon();
+      } else if (input === "briard") {
+        briard();
+      } else if (input === "buhund/norwegian") {
+        norwegianBuhund();
+      } else if (input === "bulldog/boston") {
+        bostonBulldog();
+      } else if (input === "bulldog/french") {
+        frenchBulldog();
+      } else if (input === "bullterrier/staffordshire") {
+        staffordshireBullterrier();
+      } else if (input === "cattledog/australian") {
+        australianCattledog();
+      } else if (input === "chihuahua") {
+        chihuahua();
+      } else if (input === "chow") {
+        chow();
+      } else if (input === "clumber") {
+        clumber();
+      } else if (input === "cockapoo") {
+        cockapoo();
+      } else if (input === "collie/border") {
+        borderCollie();
+      } else if (input === "coonhound") {
+        coonhound();
+      } else if (input === "corgi/cardigan") {
+        cardiganCorgi();
+      } else if (input === "cotondetulear") {
+        cotondetulear();
+      } else if (input === "dachshund") {
+        dachshund();
+      } else if (input === "dalmatian") {
+        dalmatian();
+      } else if (input === "dane/great") {
+        greatDane();
+      } else if (input === "deerhound/scottish") {
+        scottishDeerhound();
+      } else if (input === "dhole") {
+        dhole();
+      } else if (input === "dingo") {
+        dingo();
+      } else if (input === "doberman") {
+        doberman();
+      } else if (input === "elkhound/norwegian") {
+        norwegianElkhound();
+      } else if (input === "entlebucher") {
+        entlebucher();
+      } else if (input === "eskimo") {
+        eskimo();
+      } else if (input === "finnish/lapphund") {
+        lapphundFinnish();
+      } else if (input === "frise/bichon") {
+        bichonFrise();
+      } else if (input === "germanshepherd") {
+        germanShepherd();
+      } else if (input === "greyhound/italian") {
+        italianGreyhound();
+      } else if (input === "groenendael") {
+        groenendael();
+      } else if (input === "havanese") {
+        havanese();
+      } else if (input === "hound/afghan") {
+        afghanHound();
+      } else if (input === "hound/basset") {
+        bassetHound();
+      } else if (input === "hound/blood") {
+        bloodHound();
+      } else if (input === "hound/english") {
+        englishHound();
+      } else if (input === "hound/ibizan") {
+        ibizanHound();
+      } else if (input === "hound/plott") {
+        plottHound();
+      } else if (input === "hound/walker") {
+        walkerHound();
+      } else if (input === "husky") {
+        husky();
+      } else if (input === "keeshond") {
+        keeshond();
+      } else if (input === "kelpie") {
+        kelpie();
+      } else if (input === "komondor") {
+        komondor();
+      } else if (input === "kuvasz") {
+        kuvasz();
+      } else if (input === "Labradoodle") {
+        labradoodle();
+      } else if (input === "labrador") {
+        labrador();
+      } else if (input === "leonberg") {
+        leonberg();
+      } else if (input === "lhasa") {
+        lhasa();
+      } else if (input === "malamute") {
+        malamute();
+      } else if (input === "malinois") {
+        malinois();
+      } else if (input === "maltese") {
+        maltese();
+      } else if (input === "mastiff/bull") {
+        bullMastiff();
+      } else if (input === "mastiff/english") {
+        englishMastiff();
+      } else if (input === "mastiff/tibetan") {
+        tibetanMastiff();
+      } else if (input === "mexicanhairless") {
+        mexicanhairless();
+      } else if (input === "mix") {
+        mix();
+      } else if (input === "mountain/bernese") {
+        berneseMountain();
+      } else if (input === "mountain/swiss") {
+        swissMountain();
+      } else if (input === "newfoundland") {
+        newfoundland();
+      } else if (input === "otterhound") {
+        otterhound();
+      } else if (input === "ovcharka/caucasian") {
+        caucasianOvcharka();
+      } else if (input === "papillon") {
+        papillon();
+      } else if (input === "pekinese") {
+        pekinese();
+      } else if (input === "pembroke") {
+        pembroke();
+      } else if (input === "pinscher/miniature") {
+        miniaturePinscher();
+      } else if (input === "pitbull") {
+        pitbull();
+      } else if (input === "pointer/german") {
+        germanPointer();
+      } else if (input === "pointer/germanlonghair") {
+        germanlonghairPointer();
+      } else if (input === "pomeranian") {
+        pomeranian();
+      } else if (input === "poodle/miniature") {
+        miniaturePoodle();
+      } else if (input === "poodle/standard") {
+        standardPoodle();
+      } else if (input === "poodle/toy") {
+        toyPoodle();
+      } else if (input === "pug") {
+        pug();
+      } else if (input === "puggle") {
+        puggle();
+      } else if (input === "pyrenees") {
+        pyrenees();
+      } else if (input === "redbone") {
+        redbone();
+      } else if (input === "retriever/chesapeake") {
+        chesapeakeRetriever();
+      } else if (input === "retriever/curly") {
+        curlyRetriever();
+      } else if (input === "retriever/flatcoated") {
+        flatcoatedRetriever();
+      } else if (input === "retriever/golden") {
+        goldenRetriever();
+      } else if (input === "ridgeback/rhodesian") {
+        rhodesianRidgeback();
+      } else if (input === "rottweiler") {
+        rottweiler();
+      } else if (input === "saluki") {
+        saluki();
+      } else if (input === "samoyed") {
+        samoyed();
+      } else if (input === "schipperke") {
+        schipperke();
+      } else if (input === "schnauzer/giant") {
+        giantSchnauzer();
+      } else if (input === "schnauzer/miniature") {
+        miniatureSchnauzer();
+      } else if (input === "setter/english") {
+        englishSetter();
+      } else if (input === "setter/gordon") {
+        gordonSetter();
+      } else if (input === "setter/irish") {
+        irishSetter();
+      } else if (input === "sheepdog/english") {
+        englishSheepdog();
+      } else if (input === "sheepdog/shetland") {
+        shetlandSheepdog();
+      } else if (input === "shihtzu") {
+        shihtzu();
+      } else if (input === "spaniel/blenheim") {
+        blenheimSpaniel();
+      } else if (input === "spaniel/brittany") {
+        brittanySpaniel();
+      } else if (input === "spaniel/cocker") {
+        cockerSpaniel();
+      } else if (input === "spaniel/irish") {
+        irishSpaniel();
+      } else if (input === "spaniel/japanese") {
+        japaneseSpaniel();
+      } else if (input === "spaniel/sussex") {
+        sussexSpaniel();
+      } else if (input === "spaniel/welsh") {
+        welshSpaniel();
+      } else if (input === "springer/english") {
+        englishSpringer();
+      } else if (input === "stbernard") {
+        stbernard();
+      } else if (input === "terrier/american") {
+        americanTerrier();
+      } else if (input === "terrier/australian") {
+        australianTerrier();
+      } else if (input === "terrier/bedlington") {
+        bedlingtonTerrier();
+      } else if (input === "terrier/border") {
+        borderTerrier();
+      } else if (input === "terrier/cairn") {
+        cairnTerrier();
+      } else if (input === "terrier/dandie") {
+        dandieTerrier();
+      } else if (input === "terrier/fox") {
+        foxTerrier();
+      } else if (input === "terrier/irish") {
+        irishTerrier();
+      } else if (input === "terrier/kerryblue") {
+        kerryblueTerrier();
+      } else if (input === "terrier/lakeland") {
+        lakelandTerrier();
+      } else if (input === "terrier/norfolk") {
+        norfolkTerrier();
+      } else if (input === "terrier/norwich") {
+        norwichTerrier();
+      } else if (input === "terrier/patterdale") {
+        patterdaleTerrier();
+      } else if (input === "terrier/russell") {
+        russellTerrier();
+      } else if (input === "terrier/scottish") {
+        scottishTerrier();
+      } else if (input === "terrier/sealyham") {
+        sealyhamTerrier();
+      } else if (input === "terrier/silky") {
+        silkyTerrier();
+      } else if (input === "terrier/tibetan") {
+        tibetanTerrier();
+      } else if (input === "terrier/toy") {
+        toyTerrier();
+      } else if (input === "terrier/welsh") {
+        welshTerrier();
+      } else if (input === "terrier/westhighland") {
+        westhighlandTerrier();
+      } else if (input === "terrier/wheaten") {
+        wheatenTerrier();
+      } else if (input === "terrier/yorkshire") {
+        yorkshireTerrier();
+      } else if (input === "tervuren") {
+        tervuren();
+      } else if (input === "vizsla") {
+        vizsla();
+      } else if (input === "waterdog/spanish") {
+        spanishWaterdog();
+      } else if (input === "weimaraner") {
+        weimaraner();
+      } else if (input === "whippet") {
+        whippet();
+      } else if (input === "wolfhound/irish") {
+        irishWolfhound();
+      }
+    }, 300);
   };
 
   if (loading) {
     return <h1>Loading...</h1>;
   }
 
+  const addDefaultSrc = (ev) => {
+    ev.target.src = "https://via.placeholder.com/468x300?text=Invalid+input!";
+    setInfo(
+      <p>
+        Invalid input!
+        <br />
+        <br />
+        <br />
+        <br />
+        Dog breed doesn't exists or the ...
+        <br />
+        <br />
+        ..spelling is wrong!
+        <br />
+        <br />
+        <br />
+        <br />
+        Please try again!
+        <br />
+        <br />
+        GET INSPIRED!
+      </p>
+    );
+  };
+
   return (
     <div className="App">
       <h1>Get Inspired! Find your future best friend!</h1>
-      <img id="demoObject" src={data} alt="img-of-dog" />
+      <img
+        onError={addDefaultSrc}
+        id="demoObject"
+        src={data}
+        alt="img-of-dog"
+      />
       <p className="info">{info}</p>
       <div className="position">
         <input
