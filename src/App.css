@@ -119,6 +119,22 @@ button:hover {
   transition: 1.3s;
 }
 
+.button-logout {
+  position: absolute;
+  width: 100px;
+  height: 55px;
+  top: -500px;
+  left: 1100px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #f9f8fc;
+  border: 2.5px solid #0e172c;
+  transition: background-color 2s;
+  transition-duration: 2s;
+  transition: 1.3s;
+}
+
 .button-os:hover {
   position: absolute;
   top: 30px;
